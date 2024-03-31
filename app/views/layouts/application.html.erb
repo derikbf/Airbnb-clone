@@ -16,8 +16,10 @@
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
-      
-    <%= render 'layouts/header' %>
+
+    <% if controller_name != 'devise/registrations' && controller_name != 'sessions' %>
+      <%= render 'layouts/header' %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
