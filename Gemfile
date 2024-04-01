@@ -7,6 +7,8 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
 gem 'devise', '~> 4.9', '>= 4.9.3'
 
+gem 'faker'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -65,3 +67,4 @@ group :development do
 end
 
 gem "tailwindcss-rails", "~> 2.3"
+
